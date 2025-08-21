@@ -78,20 +78,6 @@ const RegistrationGuide: React.FC = () => {
                     </div>
                 </li>
             </ol>
-
-            <div className="mt-8">
-                <video
-                    controls
-                    className="w-full h-auto rounded-lg shadow-sm"
-                    poster=""
-                >
-                    <source
-                        src="https://ufshseo-cdn.mybet789.com/ขั้นตอนการสมัครสมาชิก_TH_16x9.mp4"
-                        type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                </video>
-            </div>
         </div>
     );
 };

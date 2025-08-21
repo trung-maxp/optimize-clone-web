@@ -156,17 +156,7 @@ const MainHotMatch = () => {
 
     switch (matchData.status) {
       case 'live':
-        return (
-          <div className="bg-red-500 rounded px-2 py-1 flex items-center">
-            <div className="w-2 h-2 bg-red-200 rounded-full mr-1 animate-ping"></div>
-            <img
-              src="/image/soccer/icn-play-live.avif"
-              alt="live stream"
-              className="w-[37px] h-[15px]"
-              loading='lazy'
-            />
-          </div>
-        );
+        return
       case 'upcoming':
         return (
           <div className="bg-blue-500 rounded px-2 py-1">
