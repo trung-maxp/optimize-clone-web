@@ -156,21 +156,7 @@ const MainHotMatch = () => {
 
     switch (matchData.status) {
       case 'live':
-<<<<<<< HEAD
         return
-=======
-        return (
-          <div className="bg-red-500 rounded px-2 py-1 flex items-center">
-            <div className="w-2 h-2 bg-red-200 rounded-full mr-1 animate-ping"></div>
-            <img
-              src="/image/soccer/icn-play-live.avif"
-              alt="live stream"
-              className="w-9 h-4"
-              loading='lazy'
-            />
-          </div>
-        );
->>>>>>> parent of 790265d (chore: update speed)
       case 'upcoming':
         return (
           <div className="bg-blue-500 rounded px-2 py-1">
@@ -275,10 +261,10 @@ const MainHotMatch = () => {
                 </div>
 
                 <div className={`text-sm font-medium px-3 py-1 rounded-full ${matchData.status === 'live'
-                    ? 'text-green-600 bg-green-100 animate-pulse'
-                    : matchData.status === 'upcoming'
-                      ? 'text-blue-600 bg-blue-100'
-                      : 'text-gray-600 bg-gray-100'
+                  ? 'text-green-600 bg-green-100 animate-pulse'
+                  : matchData.status === 'upcoming'
+                    ? 'text-blue-600 bg-blue-100'
+                    : 'text-gray-600 bg-gray-100'
                   }`}>
                   {formatGameTime()}
                 </div>
