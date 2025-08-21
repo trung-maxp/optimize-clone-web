@@ -1,5 +1,3 @@
-Here’s an updated version of your `README.md` that includes **Lighthouse testing** and using `npm` for PageSpeed testing:
-
 ````markdown
 # React + Tailwind CSS Project
 
