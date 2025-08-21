@@ -52,6 +52,3 @@ npm run preview
 * `npm run preview` - Preview production build
 
 ```
-
-👉 Do you want me to also **add the `npm run test` script setup** (e.g., with Lighthouse CI or `lighthouse` CLI) in your `package.json`, so it’s runnable directly?
-```
