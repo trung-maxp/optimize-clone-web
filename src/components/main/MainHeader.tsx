@@ -70,15 +70,15 @@ UFABET (ยูฟ่าเบท) ดำเนินการภายใต้�
                     <picture>
                         <source
                             media="(max-width: 480px)"
-                            srcSet="https://ufshseo-cdn.mybet789.com/เดิมพันบนUFABET-small.avif"
+                            srcSet="/image/bg-pic-1-small.avif"
                         />
                         <source
                             media="(max-width: 800px)"
-                            srcSet="https://ufshseo-cdn.mybet789.com/เดิมพันบนUFABET-medium.avif"
+                            srcSet="/image/bg-pic-1-medium.avif"
                         />
                         <img
                             className="w-full h-auto rounded-lg shadow-md"
-                            src="https://ufshseo-cdn.mybet789.com/เดิมพันบนUFABET.avif"
+                            src="/image/bg-pic-1-big.avif"
                             alt="เดิมพันบน UFABET (ยูฟ่าเบท)"
                             loading="lazy"
                         />

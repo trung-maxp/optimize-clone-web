@@ -10,6 +10,7 @@ const MainContentHeader = lazy(() => import("./MainHeader"))
 const MainHotMatch = lazy(() => import("./MainHotMatch"))
 const MainLiveMatch = lazy(() => import("./MainLiveMatch"))
 const MenuTab = lazy(() => import("./MenuTab"))
+const RegistrationGuide = lazy(() => import("./RegisterGuide"))
 const ResponsibleGamblingAccordion = lazy(() => import("./ResponsibleGamblingAccordion"))
 
 const Main = () => {
@@ -39,6 +40,10 @@ const Main = () => {
 
             <Suspense fallback={<SectionSkeleton height="h-40" />}>
                 <MenuTab />
+            </Suspense>
+
+            <Suspense fallback={<SectionSkeleton height="h-40" />}>
+                <RegistrationGuide />
             </Suspense>
 
             <Suspense fallback={<ComponentLoader />}>

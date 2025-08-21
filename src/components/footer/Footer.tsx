@@ -43,10 +43,10 @@ const Footer = () => {
   ];
 
   const licenses = [
-    { src: "/img/game-license/game-license-1.avif", alt: "game-license-1" },
-    { src: "/img/game-license/game-license-2.avif", alt: "game-license-2" },
-    { src: "/img/game-license/game-license-3.avif", alt: "game-license-3" },
-    { src: "/img/game-license/game-license-4.avif", alt: "game-license-4" }
+    { src: "/image/game-license/game-license-1.avif", alt: "game-license-1" },
+    { src: "/image/game-license/game-license-2.avif", alt: "game-license-2" },
+    { src: "/image/game-license/game-license-3.avif", alt: "game-license-3" },
+    { src: "/image/game-license/game-license-4.avif", alt: "game-license-4" }
   ];
 
   return (
@@ -153,7 +153,7 @@ const Footer = () => {
           <div className="flex-shrink-0">
             <img
               className="h-16 w-auto"
-              src="/img/UFABET.avif"
+              src="/image/UFABET.avif"
               alt="ufabet logo"
               loading='lazy'
             />
@@ -192,7 +192,7 @@ const Footer = () => {
           <div className="mb-4">
             <img
               className="mx-auto h-12 w-auto"
-              src="/img/icn-age18.avif"
+              src="/image/icn-age18.avif"
               alt="age 18"
               loading='lazy'
             />

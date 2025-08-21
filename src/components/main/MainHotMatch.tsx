@@ -39,13 +39,13 @@ const MainHotMatch = () => {
       home: {
         id: 'la-galaxy',
         name: 'แอลเอ กาแลกซี่',
-        logo: '/img/soccer/icn-flag-placeholder.avif',
+        logo: '/image/soccer/icn-flag-placeholder.avif',
         score: 2
       },
       away: {
         id: 'pachuca',
         name: 'ปาชูก้า',
-        logo: '/img/soccer/icn-flag-placeholder.avif',
+        logo: '/image/soccer/icn-flag-placeholder.avif',
         score: 0
       }
     },
@@ -160,7 +160,7 @@ const MainHotMatch = () => {
           <div className="bg-red-500 rounded px-2 py-1 flex items-center">
             <div className="w-2 h-2 bg-red-200 rounded-full mr-1 animate-ping"></div>
             <img
-              src="/img/soccer/icn-play-live.avif"
+              src="/image/soccer/icn-play-live.avif"
               alt="live stream"
               className="w-9 h-4"
               loading='lazy'
@@ -194,7 +194,7 @@ const MainHotMatch = () => {
         <div className="flex items-center">
           <div className="flex ml-2 mr-3">
             <img
-              src="/img/icn-hot-matches.avif"
+              src="/image/icn-hot-matches.avif"
               alt="แมตช์ร้อนแรง"
               className="w-6 h-6 animate-pulse"
               loading='lazy'
@@ -225,7 +225,7 @@ const MainHotMatch = () => {
             <div className="flex items-center justify-between mb-4">
               <p className="flex items-center text-gray-700 font-medium">
                 <img
-                  src="/img/soccer/icn-soccer.avif"
+                  src="/image/soccer/icn-soccer.avif"
                   width="18"
                   className="ml-1 mt-0.5 mr-2"
                   alt="ฟุตบอล"

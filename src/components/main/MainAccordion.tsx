@@ -39,7 +39,7 @@ const MainAccordion: React.FC<AccordionProps> = ({ className = '' }) => {
     <div className={`pt-12 ${className}`}>
       {/* Main Accordion */}
       <details className="bg-white rounded-lg shadow-lg overflow-hidden" open={isMainExpanded}>
-        <summary 
+        <summary
           className="cursor-pointer select-none"
           onClick={(e) => {
             e.preventDefault();
@@ -86,17 +86,17 @@ const MainAccordion: React.FC<AccordionProps> = ({ className = '' }) => {
           {isMainExpanded && (
             <div className="mb-6 pt-8">
               <picture>
-                <source 
-                  media="(max-width: 480px)" 
-                  srcSet="https://ufshseo-cdn.mybet789.com/ยูฟ่าเบทเว็บตรง-small.avif"
+                <source
+                  media="(max-width: 480px)"
+                  srcSet="/image/bg-pic-2-small.avif"
                 />
-                <source 
-                  media="(max-width: 800px)" 
-                  srcSet="https://ufshseo-cdn.mybet789.com/ยูฟ่าเบทเว็บตรง-medium.avif"
+                <source
+                  media="(max-width: 800px)"
+                  srcSet="/image/bg-pic-2-medium.avif"
                 />
                 <img
                   className="w-full h-auto rounded-lg shadow-md"
-                  src="https://ufshseo-cdn.mybet789.com/ยูฟ่าเบทเว็บตรง.avif"
+                  src="/image/bg-pic-2-big.avif"
                   alt="เว็บตรงยูฟ่าเบท"
                   loading="lazy"
                 />
@@ -108,7 +108,7 @@ const MainAccordion: React.FC<AccordionProps> = ({ className = '' }) => {
           {isMainExpanded && (
             <div className="mt-4">
               <details className="bg-gray-50 rounded-lg overflow-hidden border border-gray-200" open={isSubExpanded}>
-                <summary 
+                <summary
                   className="cursor-pointer select-none"
                   onClick={(e) => {
                     e.preventDefault();

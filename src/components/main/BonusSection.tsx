@@ -2,19 +2,19 @@ const BonusSection = () => {
   const bannerImages = [
     {
       alt: "อัตราต่อรองคอมมิชชั่น",
-      src: "https://ufshseo-cdn.mybet789.com/แฮนดิแคปคอมมิชชั่น.avif"
+      src: "/image/bg-pic-6.avif"
     },
     {
       alt: "สเต็ปคอมมิชชั่น",
-      src: "https://ufshseo-cdn.mybet789.com/พาร์เลย์คอมมิชชั่น.avif"
+      src: "/image/bg-pic-7.avif"
     },
     {
       alt: "มันนี่ไลน์สองโอกาสค่าคอม",
-      src: "https://ufshseo-cdn.mybet789.com/มันนี่ไลน์คอมมิชชั่น.avif"
+      src: "/image/bg-pic-8.avif"
     },
     {
       alt: "คาสิโนคอมมิชชั่น",
-      src: "https://ufshseo-cdn.mybet789.com/เกมคาสิโนคอมมิชชั่น.avif"
+      src: "/image/bg-pic-9.avif"
     }
   ];
 
