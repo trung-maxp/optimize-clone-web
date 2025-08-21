@@ -39,13 +39,13 @@ const MainHotMatch = () => {
       home: {
         id: 'la-galaxy',
         name: 'แอลเอ กาแลกซี่',
-        logo: '/image/soccer/icn-flag-placeholder.avif',
+        logo: '/image/soccer/icn-flag-placeholder.jpg',
         score: 2
       },
       away: {
         id: 'pachuca',
         name: 'ปาชูก้า',
-        logo: '/image/soccer/icn-flag-placeholder.avif',
+        logo: '/image/soccer/icn-flag-placeholder.jpg',
         score: 0
       }
     },
